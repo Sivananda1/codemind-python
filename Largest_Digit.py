@@ -1,3 +1,6 @@
-N=int(input())
-s=[int(a) for a in str(N)]
-print(max(*s))
+n=int(input())
+s=[]
+for i in str(n):
+    d=int(i)
+    s.append(d)
+print(max(s))
