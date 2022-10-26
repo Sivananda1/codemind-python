@@ -1,10 +1,13 @@
 n=int(input())
 l=list(map(int,input().split()))
-t=True
+c=0
+d=0
 for i in range(len(l)):
-    if l[i]%2==0 and i%2:
-        print(False)
-        t=False
-        break
-if t==True:
+    if l[i]%2==0 and i%2==0:
+        c+=1
+    if l[i]%2==0:
+        d+=1
+if c==d:
     print(True)
+else:
+    print(False)
