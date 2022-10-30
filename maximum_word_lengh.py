@@ -1,7 +1,8 @@
 n=input()
 s=n.split()
 c=0
+t=[]
 for i in s:
     if c<len(i):
-        c=len(i)
-print(c)
+        t.append(len(i))
+print(max(t))
