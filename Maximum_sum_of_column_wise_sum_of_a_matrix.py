@@ -2,7 +2,7 @@ n,m=map(int,input().split())
 f=[]
 s=0
 d=[]
-for _ in range(n):
+for k in range(n):
     a=list(map(int,input().split()))
     f.append(a)
 for i in range(m):
